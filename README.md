@@ -2,7 +2,33 @@
 
 ## Introduction
 This repository features three machine learning models and two websites focused on healthcare analytics, predictions, and visualization. These models aim to address anomaly detection, billing prediction, and sales forecasting. Additionally, a **Power BI** dashboard and a billing prediction website provide valuable tools for stakeholders and patients.
-![WhatsApp Image 2024-10-24 at 11 20 51_fea954b3](https://github.com/user-attachments/assets/aa9e69cf-661d-43ba-bf37-9232998a6555)
+
+## Comprehensive User Guide for the Healthcare Analytics Dashboard
+Step 1 :**User Authentication**:
+Log in with your username and password to establish a secure session using JWT (JSON Web Tokens) for token-based authentication.
+Step 2 :**Account Creation**:
+Register a new account by providing your personal details, with passwords securely hashed and stored in MongoDB.
+![image](https://github.com/user-attachments/assets/8ae83b1f-7769-4471-bc53-d971e0ac9301)
+![image](https://github.com/user-attachments/assets/e9c7a2ee-d670-4bbc-b1b9-10f361849a3e)
+
+
+Step 3 : **Dashboard Access**:
+Access the home page, which serves as the hub for key metrics and insights, built using React.js for dynamic updates.
+Step 4 :**Sidebar Navigation**:
+Use the left navigation panel to transition between various analytical tools, styled with Tailwind CSS for a responsive design.
+
+Step 5 :**Anomaly Detection Analysis**:
+Utilize the Anomaly Detection feature powered by the Isolation Forest algorithm to identify billing irregularities.
+Step 6 :**Billing Prediction Model**:
+Review outputs from the billing prediction model, created with a Random Forest Regressor to forecast hospital billing amounts.
+Step 7 :**Comprehensive Analysis**:
+Investigate predictions for billing amounts and admission lengths, utilizing advanced machine learning techniques for operational efficiency.
+Step 8 :**Power BI Dashboard Visualization**:
+Interact with the Power BI dashboard for visual analytics on sales performance and market trends, employing DAX for data manipulation.
+Step 9 **:Patient Billing Prediction Tool**:
+Enter personal and medical data to estimate hospital costs using machine learning models for real-time predictions.
+Step 10 :**Data Security Assurance**:
+Trust that robust security measures, including HTTPS and secure API endpoints, protect your sensitive information and comply with regulations like GDPR and HIPAA.
 
 
 ## Project Overview
