@@ -4,10 +4,13 @@
 This repository features three machine learning models and two websites focused on healthcare analytics, predictions, and visualization. These models aim to address anomaly detection, billing prediction, and sales forecasting. Additionally, a **Power BI** dashboard and a billing prediction website provide valuable tools for stakeholders and patients.
 
 ## Comprehensive User Guide for the Healthcare Analytics Dashboard
-Step 1 :Log in with your username and password to establish a secure session using JWT (JSON Web Tokens) for token-based authentication. If you don’t have an account, you can register a new one by providing your personal details. Passwords are securely hashed and stored in MongoDB to ensure your information is protected.
+
+Step 1 :**User Authentication & Account Creation:**
+Log in with your username and password to establish a secure session using JWT (JSON Web Tokens) for token-based authentication. If you don’t have an account, you can register a new one by providing your personal details. Passwords are securely hashed and stored in MongoDB to ensure your information is protected.
 
 ![image](https://github.com/user-attachments/assets/8ae83b1f-7769-4471-bc53-d971e0ac9301)
 ![image](https://github.com/user-attachments/assets/e9c7a2ee-d670-4bbc-b1b9-10f361849a3e)
+
 
 Step 2 **:Dashboard Access & Sidebar Navigation**:
 Access the home page, serving as the hub for key metrics and insights, built using React.js for dynamic updates. Utilize the left navigation panel to transition seamlessly between various analytical tools, all styled with Tailwind CSS to ensure a responsive design that enhances user experience.
@@ -15,25 +18,37 @@ Access the home page, serving as the hub for key metrics and insights, built usi
 ![WhatsApp Image 2024-10-24 at 12 44 11_cd89bf7b](https://github.com/user-attachments/assets/5e2e7074-d051-4eec-b4ce-c1464343ad5c)
 
 
+
 Step 3 :**Anomaly Detection & Billing Prediction Analysis**:
 Utilize the Anomaly Detection feature powered by the Isolation Forest algorithm to identify billing irregularities, and review outputs from the billing prediction model, which is created with a Random Forest Regressor to forecast hospital billing amounts. This combined analysis helps in maintaining financial accuracy and enhancing decision-making.
+
+![WhatsApp Image 2024-10-24 at 12 44 13_31718cb0](https://github.com/user-attachments/assets/9787cd3c-25d7-4898-b670-9fed11ca812a)
+
+
 ![image](https://github.com/user-attachments/assets/c626de96-af48-494f-8df6-2c1996fbfbf7)
-![Uploading WhatsApp Image 2024-10-24 at 12.44.13_9e38e180.jpg…]()
+
 
 
 
 Step 4 :**Comprehensive Analysis & Power BI Visualization:**
+
 Investigate predictions for billing amounts and admission lengths using advanced machine learning techniques to enhance operational efficiency. Additionally, interact with the Power BI dashboard for visual analytics on sales performance and market trends, employing DAX for effective data manipulation. This integration allows for informed decision-making and strategic insights.
+
 ![WhatsApp Image 2024-10-24 at 12 44 11_65f22e60](https://github.com/user-attachments/assets/da715b7e-3095-4504-8484-9f2dd9beffd1)
+
 ![WhatsApp Image 2024-10-24 at 12 44 12_ff5b4732](https://github.com/user-attachments/assets/f7305d1e-c720-4d4a-85f8-220d3650820f)
+
 ![WhatsApp Image 2024-10-24 at 12 44 13_b885a7a7](https://github.com/user-attachments/assets/9e1b6bc7-8025-4b7f-bba5-30f073dde88c)
 
 
 
 
 Step 5 : **Patient Billing Prediction & Data Security Assurance**:
+
 Enter personal and medical data to estimate hospital costs using machine learning models for real-time predictions. Rest assured that robust security measures, including HTTPS and secure API endpoints, protect your sensitive information and ensure compliance with regulations like GDPR and HIPAA, safeguarding your data throughout the process.
+
 ![WhatsApp Image 2024-10-24 at 12 44 12_5776b5c7](https://github.com/user-attachments/assets/ce237d7c-8ddc-4924-a234-6d1927c56cd1)
+
 ![WhatsApp Image 2024-10-24 at 12 44 12_4c97cfb7](https://github.com/user-attachments/assets/d408c1e4-645e-46ee-874f-06cd05c13f1b)
 
 
